@@ -16,7 +16,7 @@ export default async function Login(props: { searchParams: Promise<Message> }) {
         <div className="w-full max-w-sm space-y-6 text-center">
           <div className="space-y-2">
             <h1 className="text-2xl font-semibold tracking-tight text-white">
-              Log in to Supaside
+              Log in to Supaside fm
             </h1>
             <p className="text-sm text-gray-400">
               Don&apos;t have an account?{" "}
@@ -68,6 +68,7 @@ export default async function Login(props: { searchParams: Promise<Message> }) {
             <div className="space-y-2">
               <Input
                 type="email"
+                name = "email"
                 placeholder="Email"
                 className="h-11 rounded-xl border-zinc-800 bg-zinc-900 text-white placeholder:text-zinc-400"
               />
@@ -75,6 +76,7 @@ export default async function Login(props: { searchParams: Promise<Message> }) {
             <div className="space-y-2">
               <Input
                 type="password"
+                name="email"
                 placeholder="Password"
                 className="h-11 rounded-xl border-zinc-800 bg-zinc-900 text-white placeholder:text-zinc-400"
               />
